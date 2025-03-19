@@ -1,5 +1,4 @@
 #!/bin/sh
-
 rm -rf redis-7.0.4
 tar -xzf redis-7.0.4.tar.gz
 
@@ -18,7 +17,7 @@ echo \"io-threads \$NUM_CPU_PHYSICAL_CORES
 io-threads-do-reads yes
 tcp-keepalive 0\" > redis.conf
 
-./src/redis-server redis.conf &
+/usr/bin/redis-server redis.conf &
 REDIS_SERVER_PID=\$!
 sleep 6
 

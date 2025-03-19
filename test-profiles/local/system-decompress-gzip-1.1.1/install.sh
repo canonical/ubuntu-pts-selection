@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 GZIP=`which gzip`
 echo $? > ~/install-exit-status
 

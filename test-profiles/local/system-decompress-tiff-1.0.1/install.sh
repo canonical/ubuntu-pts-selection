@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 tar -xzf misc.tar.gz
 
 T2RGB=`which tiff2rgba`

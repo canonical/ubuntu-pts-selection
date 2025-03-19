@@ -1,8 +1,6 @@
 #!/bin/sh
-tar -xf kvazaar-2.2.0.tar.bz2
-cd kvazaar-2.2.0/
-./configure
-make -j $NUM_CPU_CORES
+DEBIAN_FRONTEND=noninteractive sudo apt-get -y install kvazaar
+
 echo $? > ~/install-exit-status
 cd ~
 7z x Bosphorus_3840x2160_120fps_420_8bit_YUV_Y4M.7z -aoa

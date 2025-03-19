@@ -20,6 +20,7 @@
     <EnvironmentSize>1</EnvironmentSize>
     <ProjectURL>http://www.pureftpd.org/project/phpbench</ProjectURL>
     <Maintainer>Michael Larabel</Maintainer>
+    <SystemDependencies>php</SystemDependencies>
   </TestProfile>
   <TestSettings>
     <Default>

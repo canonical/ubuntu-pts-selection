@@ -1,5 +1,6 @@
 #!/bin/sh
 
+	
 tar -jxvf rodinia_3.1.tar.bz2
 
 cd ~/rodinia_3.1/openmp/cfd; 				make;
@@ -9,15 +10,6 @@ cd ~/rodinia_3.1/openmp/myocyte;  			make;
 cd ~/rodinia_3.1/openmp/hotspot3D;  			make;
 cd ~/rodinia_3.1/openmp/streamcluster;			make;
 echo $? > ~/install-exit-status
-
-cd ~/rodinia_3.1/opencl/lavaMD;				make;
-cd ~/rodinia_3.1/opencl/leukocyte;			make;
-cd ~/rodinia_3.1/opencl/heartwall;			make;
-cd ~/rodinia_3.1/opencl/myocyte;			make;
-cd ~/rodinia_3.1/opencl/particlefilter;			make;
-
-export PATH=/usr/local/cuda/bin:$PATH
-cd ~/rodinia_3.1/cuda/myocyte;			make;
 
 cd ~/
 echo "#!/bin/sh

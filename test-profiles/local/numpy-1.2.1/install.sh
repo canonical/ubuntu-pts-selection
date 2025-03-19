@@ -1,5 +1,5 @@
 #!/bin/sh
-pip3 install --user scipy numpy
+
 tar -xvf numpy-benchmarks-20190903.tar.gz
 echo $? > ~/install-exit-status
 

@@ -1,7 +1,5 @@
 #!/bin/sh
 
-pip install --user cython
-
 tar -xf cython-0.29.21.tar.gz
 cd cython-0.29.21/Demos/benchmarks
 python3 setup.py build_ext --inplace
