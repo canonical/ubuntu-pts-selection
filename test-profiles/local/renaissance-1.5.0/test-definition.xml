@@ -32,29 +32,39 @@
       <Identifier>test</Identifier>
       <Menu>
         <Entry>
-          <Name>Akka Unbalanced Cobwebbed Tree</Name>
-          <Value>akka-uct</Value>
-          <Message>Runs the Unbalanced Cobwebbed Tree actor workload in Akka.</Message>
-        </Entry>
-        <Entry>
-          <Name>Savina Reactors.IO</Name>
-          <Value>reactors</Value>
-          <Message>Runs benchmarks inspired by the Savina microbenchmark workloads in a sequence on Reactors.IO.</Message>
-        </Entry>
-        <Entry>
           <Name>Apache Spark ALS</Name>
           <Value>als</Value>
-          <Message>Runs the ALS algorithm from the Spark MLlib.</Message>
+          <Message>Runs the ALS algorithm from the Spark ML library.</Message>
+        </Entry>
+        <Entry>
+          <Name>Apache Spark Chi-Square</Name>
+          <Value>chi-square</Value>
+          <Message>Runs the chi-square test from Spark MLlib.</Message>
         </Entry>
         <Entry>
           <Name>Random Forest</Name>
           <Value>dec-tree</Value>
-          <Message>Runs the Random Forest algorithm from Spark MLlib.</Message>
+          <Message>Runs the Random Forest algorithm from the Spark ML library.</Message>
+        </Entry>
+        <Entry>
+          <Name>Gaussian Mixture Model</Name>
+          <Value>gauss-mix</Value>
+          <Message>Computes a Gaussian mixture model using expectation-maximization.</Message>
+        </Entry>
+        <Entry>
+          <Name>Logistic Regression</Name>
+          <Value>log-regression</Value>
+          <Message>Runs the Logistic Regression algorithm from the Spark ML library.</Message>
+        </Entry>
+        <Entry>
+          <Name>ALS Movie Lens</Name>
+          <Value>movie-lens</Value>
+          <Message>Recommends movies using the ALS algorithm.</Message>
         </Entry>
         <Entry>
           <Name>Apache Spark Bayes</Name>
           <Value>naive-bayes</Value>
-          <Message>Runs the multinomial naive Bayes algorithm from the Spark MLlib.</Message>
+          <Message>Runs the multinomial Naive Bayes algorithm from the Spark ML library.</Message>
         </Entry>
         <Entry>
           <Name>Apache Spark PageRank</Name>
@@ -62,19 +72,29 @@
           <Message>Runs a number of PageRank iterations, using RDDs.</Message>
         </Entry>
         <Entry>
+          <Name>Akka Unbalanced Cobwebbed Tree</Name>
+          <Value>akka-uct</Value>
+          <Message>Runs the Unbalanced Cobwebbed Tree actor workload in Akka.</Message>
+        </Entry>
+        <Entry>
+          <Name>ForkJoin K-Means</Name>
+          <Value>fj-kmeans</Value>
+          <Message>Runs the K-Means algorithm using the fork/join framework.</Message>
+        </Entry>
+        <Entry>
+          <Name>Savina Reactors.IO</Name>
+          <Value>reactors</Value>
+          <Message>Runs benchmarks inspired by the Savina microbenchmark workloads in a sequence on Reactors.IO.</Message>
+        </Entry>
+        <Entry>
           <Name>In-Memory Database Shootout</Name>
           <Value>db-shootout</Value>
           <Message>Executes a shootout test using several in-memory databases.</Message>
         </Entry>
         <Entry>
-          <Name>Scala Dotty</Name>
-          <Value>dotty</Value>
-          <Message>Runs the Random Forest algorithm from Spark MLlib.</Message>
-        </Entry>
-        <Entry>
-          <Name>Finagle HTTP Requests</Name>
-          <Value>finagle-http</Value>
-          <Message>Sends many small Finagle HTTP requests to a Finagle HTTP server and awaits response.</Message>
+          <Name>Neo4j Analytics</Name>
+          <Value>neo4j-analytics</Value>
+          <Message>Executes Neo4j graph queries against a movie database.</Message>
         </Entry>
         <Entry>
           <Name>Genetic Algorithm Using Jenetics + Futures</Name>
@@ -82,9 +102,59 @@
           <Message>Runs a genetic algorithm using the Jenetics library and futures.</Message>
         </Entry>
         <Entry>
-          <Name>ALS Movie Lens</Name>
-          <Value>movie-lens</Value>
-          <Message>Recommends movies using the ALS algorithm.</Message>
+          <Name>Phone Mnemonics</Name>
+          <Value>mnemonics</Value>
+          <Message>Solves the phone mnemonics problem using JDK streams.</Message>
+        </Entry>
+        <Entry>
+          <Name>Parallel Phone Mnemonics</Name>
+          <Value>par-mnemonics</Value>
+          <Message>Solves the phone mnemonics problem using parallel JDK streams.</Message>
+        </Entry>
+        <Entry>
+          <Name>Rx Scrabble</Name>
+          <Value>rx-scrabble</Value>
+          <Message>Solves the Scrabble puzzle using the Rx streams.</Message>
+        </Entry>
+        <Entry>
+          <Name>Scrabble</Name>
+          <Value>scrabble</Value>
+          <Message>Solves the Scrabble puzzle using JDK Streams.</Message>
+        </Entry>
+        <Entry>
+          <Name>Scala Dotty</Name>
+          <Value>dotty</Value>
+          <Message>Runs the Dotty compiler on a set of source code files.</Message>
+        </Entry>
+        <Entry>
+          <Name>Dining Philosophers</Name>
+          <Value>philosophers</Value>
+          <Message>Solves a variant of the dining philosophers problem using ScalaSTM.</Message>
+        </Entry>
+        <Entry>
+          <Name>Scala Sudoku</Name>
+          <Value>scala-doku</Value>
+          <Message>Solves Sudoku Puzzles using Scala collections.</Message>
+        </Entry>
+        <Entry>
+          <Name>Scala K-Means</Name>
+          <Value>scala-kmeans</Value>
+          <Message>Runs the K-Means algorithm using Scala collections.</Message>
+        </Entry>
+        <Entry>
+          <Name>Scala STM Bench7</Name>
+          <Value>scala-stm-bench7</Value>
+          <Message>Runs the stmbench7 benchmark using ScalaSTM.</Message>
+        </Entry>
+        <Entry>
+          <Name>Twitter Finagle Chirper</Name>
+          <Value>finagle-chirper</Value>
+          <Message>Simulates a microblogging service using Twitter Finagle.</Message>
+        </Entry>
+        <Entry>
+          <Name>Finagle HTTP Requests</Name>
+          <Value>finagle-http</Value>
+          <Message>Sends many small Finagle HTTP requests to a Finagle HTTP server and awaits response.</Message>
         </Entry>
       </Menu>
     </Option>
