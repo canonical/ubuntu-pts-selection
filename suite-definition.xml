@@ -9,12 +9,12 @@
   </SuiteInformation>
   
   <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
+    <Test>local/dacapobench-1.1.1</Test>
     <Arguments>jython</Arguments>
     <Description>Java Test: Jython</Description>
   </Execute>
   <Execute>
-    <Test>pts/dacapobench-1.1.0</Test>
+    <Test>local/dacapobench-1.1.1</Test>
     <Arguments>tradebeans</Arguments>
     <Description>Java Test: Tradebeans</Description>
   </Execute>
