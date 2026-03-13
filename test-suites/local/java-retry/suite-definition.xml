@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>java</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>Test performance of OpenJDK 21 vs 25 in Ubuntu</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+  
+  <Execute>
+    <Test>local/dacapobench-1.1.1</Test>
+    <Arguments>graphchi</Arguments>
+    <Description>Java Test: GraphChi</Description>
+  </Execute>
+  <Execute>
+    <Test>local/dacapobench-1.1.1</Test>
+    <Arguments>xalan</Arguments>
+    <Description>Java Test: Apache Xalan XSLT</Description>
+  </Execute>
+  <Execute>
+    <Test>local/dacapobench-1.1.1</Test>
+    <Arguments>fop</Arguments>
+    <Description>Java Test: FOP Print Formatter</Description>
+  </Execute>
+  <Execute>
+    <Test>local/dacapobench-1.1.1</Test>
+    <Arguments>lusearch</Arguments>
+    <Description>Java Test: Apache Lucene Search Engine</Description>
+  </Execute>
+  <Execute>
+    <Test>local/dacapobench-1.1.1</Test>
+    <Arguments>zxing</Arguments>
+    <Description>Java Test: Zxing 1D/2D Barcode Image Processing</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>dotty</Arguments>
+    <Description>Test: Scala Dotty</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>fj-kmeans</Arguments>
+    <Description>Test: ForkJoin K-Means</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>finagle-chirper</Arguments>
+    <Description>Test: Twitter Finagle Chirper</Description>
+  </Execute>
+</PhoronixTestSuite>
