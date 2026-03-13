@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PhoronixTestSuite>
   <SuiteInformation>
-    <Title>javarun</Title>
+    <Title>java</Title>
     <Version>1.0.0</Version>
     <TestType>System</TestType>
-    <Description>-fno-omit-framepointer flag test</Description>
+    <Description>Test performance of OpenJDK 21 vs 25 in Ubuntu</Description>
     <Maintainer>Vladimir Petko</Maintainer>
   </SuiteInformation>
   
