@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>Renaissance</Title>
-    <AppVersion>0.14</AppVersion>
+    <AppVersion>0.16.1</AppVersion>
     <Description>Renaissance is a suite of benchmarks designed to test the Java JVM from Apache Spark to a Twitter-like service to Scala and other features.</Description>
     <ResultScale>ms</ResultScale>
     <Proportion>LIB</Proportion>
