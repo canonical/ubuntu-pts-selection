@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PhoronixTestSuite>
   <SuiteInformation>
-    <Title>java</Title>
+    <Title>DefaultJava</Title>
     <Version>1.0.0</Version>
     <TestType>System</TestType>
     <Description>Test performance of OpenJDK 21 vs 25 in Ubuntu</Description>

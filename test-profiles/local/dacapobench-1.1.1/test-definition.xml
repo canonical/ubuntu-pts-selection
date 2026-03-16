@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <TestInformation>
     <Title>DaCapo Benchmark</Title>
-    <AppVersion>23.11</AppVersion>
+    <AppVersion>23.11 MR2</AppVersion>
     <Description>This test runs the DaCapo Benchmarks written in Java and intended to test system/CPU performance of various popular real-world Java workloads.</Description>
     <ResultScale>msec</ResultScale>
     <Proportion>LIB</Proportion>
