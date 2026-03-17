@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>DefaultJava</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>Test performance of OpenJDK 21 vs 25 in Ubuntu</Description>
+    <Maintainer>Vladimir Petko</Maintainer>
+  </SuiteInformation>
+
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>dotty</Arguments>
+    <Description>Test: Scala Dotty</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>page-rank</Arguments>
+    <Description>Test: Apache Spark PageRank</Description>
+  </Execute>
+<Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>als</Arguments>
+    <Description>Test: Apache Spark ALS</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>chi-square</Arguments>
+    <Description>Test: Apache Spark Chi-Square</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>dec-tree</Arguments>
+    <Description>Test: Random Forest</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>gauss-mix</Arguments>
+    <Description>Test: Gaussian Mixture Model</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>log-regression</Arguments>
+    <Description>Test: Logistic Regression</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>naive-bayes</Arguments>
+    <Description>Test: Apache Spark Bayes</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>akka-uct</Arguments>
+    <Description>Test: Akka Unbalanced Cobwebbed Tree</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>fj-kmeans</Arguments>
+    <Description>Test: ForkJoin K-Means</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>db-shootout</Arguments>
+    <Description>Test: In-Memory Database Shootout</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>neo4j-analytics</Arguments>
+    <Description>Test: Neo4j Analytics</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>future-genetic</Arguments>
+    <Description>Test: Genetic Algorithm Using Jenetics + Futures</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>mnemonics</Arguments>
+    <Description>Test: Phone Mnemonics</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>par-mnemonics</Arguments>
+    <Description>Test: Parallel Phone Mnemonics</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>rx-scrabble</Arguments>
+    <Description>Test: Rx Scrabble</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>scrabble</Arguments>
+    <Description>Test: Scrabble</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>philosophers</Arguments>
+    <Description>Test: Dining Philosophers</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>scala-doku</Arguments>
+    <Description>Test: Scala Sudoku</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>scala-kmeans</Arguments>
+    <Description>Test: Scala K-Means</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>scala-stm-bench7</Arguments>
+    <Description>Test: Scala STM Bench7</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>finagle-chirper</Arguments>
+    <Description>Test: Twitter Finagle Chirper</Description>
+  </Execute>
+  <Execute>
+    <Test>local/renaissance-1.5.0</Test>
+    <Arguments>finagle-http</Arguments>
+    <Description>Test: Finagle HTTP Requests</Description>
+  </Execute>
+  </PhoronixTestSuite>
