@@ -65,11 +65,6 @@
   </Execute>
   <Execute>
     <Test>local/renaissance-1.5.0</Test>
-    <Arguments>neo4j-analytics</Arguments>
-    <Description>Test: Neo4j Analytics</Description>
-  </Execute>
-  <Execute>
-    <Test>local/renaissance-1.5.0</Test>
     <Arguments>future-genetic</Arguments>
     <Description>Test: Genetic Algorithm Using Jenetics + Futures</Description>
   </Execute>
@@ -85,16 +80,6 @@
   </Execute>
   <Execute>
     <Test>local/renaissance-1.5.0</Test>
-    <Arguments>rx-scrabble</Arguments>
-    <Description>Test: Rx Scrabble</Description>
-  </Execute>
-  <Execute>
-    <Test>local/renaissance-1.5.0</Test>
-    <Arguments>scrabble</Arguments>
-    <Description>Test: Scrabble</Description>
-  </Execute>
-  <Execute>
-    <Test>local/renaissance-1.5.0</Test>
     <Arguments>philosophers</Arguments>
     <Description>Test: Dining Philosophers</Description>
   </Execute>
@@ -107,11 +92,6 @@
     <Test>local/renaissance-1.5.0</Test>
     <Arguments>scala-kmeans</Arguments>
     <Description>Test: Scala K-Means</Description>
-  </Execute>
-  <Execute>
-    <Test>local/renaissance-1.5.0</Test>
-    <Arguments>scala-stm-bench7</Arguments>
-    <Description>Test: Scala STM Bench7</Description>
   </Execute>
   <Execute>
     <Test>local/renaissance-1.5.0</Test>
