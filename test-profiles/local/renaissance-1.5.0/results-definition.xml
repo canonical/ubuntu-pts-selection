@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <ResultsParser>
     <OutputTemplate>dotty #_RESULT_# 4739901008 1625685340738</OutputTemplate>
-    <LineHint>1</LineHint>
+    <LineHint>10</LineHint>
     <MultiMatch>GEOMETRIC_MEAN</MultiMatch>
     <DivideResultBy>1000000</DivideResultBy>
     <ResultPrecision>1</ResultPrecision>
